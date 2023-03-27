@@ -7,9 +7,20 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="01.html">
+    <form action="result.html" method="get">
         <fieldset>
             <legend>입력 양식</legend>
+            <table width="500">
+                <tr>
+                    <td label for="name">이름</td>
+                    <td><input type="text" name="name" id="name"></td>
+                </tr>
+                <tr>
+                    <td label for="email">이메일</td>
+                    <td><input type="mail" name="email" id="email"></td>
+                </tr>
+            </table>
+            <input type="submit" value="submit" >
         </fieldset>
     </form>
 </body>
