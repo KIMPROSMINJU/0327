@@ -12,9 +12,11 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="get">
+    <form action="ch04_ex09.html">
         <table>
             <tr>
+                <!-- th 태그를 쓰면 글씨가 중앙에 align되는 것이 싫어서
+                     그냥 align 속성과 b 태그를 사용해보았습니다 ㅎㅎ -->
                 <td align="left"><b>시작 그룹</b></td>
             </tr>
             <tr>
@@ -42,24 +44,29 @@
                 <td align="left"><b>개인정보 및 보안</b></td>
             </tr>
             <tr>
+                <!-- 아래 checkbox 형태의 input 태그 속성 중 name의 경우,
+                     그 다음 웹페이지로 전송되는 value의 정보가 다 다르기 때문에
+                     checkbox 형식 선택지 3개 중 선택한 정보가 넘어감~을 표현하려고
+                     name의 값을 다 같게 지정하였습니다! -->
                 <td>
-                    <input type="checkbox" name="security1" id="service" value="service">
+                    <input type="checkbox" name="security" id="service" value="service">
                     <label for="service">동기화 및 서비스</label>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input type="checkbox" name="security2" id="login" value="login">
+                    <input type="checkbox" name="security" id="login" value="login">
                     <label for="login">로그인 허용</label>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input type="checkbox" name="security3" id="load" value="load">
+                    <input type="checkbox" name="security" id="load" value="load">
                     <label for="load">페이지 미리 로드</label>
                 </td>
             </tr>
         </table>
+        <input type="submit" value="submit">
     </form>
 </body>
 </html>
