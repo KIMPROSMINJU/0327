@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>글 작성하기</h1>
+    <form action="get">
+        <table>
+            <tr>
+                <th>작성자</th>
+                <td>
+                    <input type="text" name="writer" id="writer">
+                </td>
+            </tr>
+            <tr>
+                <th>아이디</th>
+                <td>
+                    <input type="text" name="id" id="id">
+                </td>
+            </tr>
+            <tr>
+                <th>이메일</th>
+                <td>
+                    <input type="text" name="email" id="email">@
+                    <select name="address" id="address">
+                        <option value="free">직접 입력</option>
+                        <option value="naver">naver.com</option>
+                        <option value="gmail">gmail.com</option>
+                        <option value="daum">daum.net</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>휴대폰</th>
+                <td>
+                    <select name="tel" id="tel">
+                        <option value="tel1">010</option>
+                        <option value="tel2">011</option>
+                    </select>-
+                    <input type="text" name="tel" id="tel">-
+                    <input type="text" name="tel" id="tel">
+                </td>
+            </tr>
+            <tr>
+                <th>글제목</th>
+                <td>
+                    <input type="text" name="title" id="title">
+                </td>
+            </tr>
+            <tr>
+                <th>내용</th>
+                <td>
+                    <textarea name="content" id="content" cols="30" rows="10"></textarea>
+                    <br>
+                    <input type="submit" value="submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

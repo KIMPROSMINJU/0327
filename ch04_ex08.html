@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <form action="get">
+        <table>
+            <tr>
+                <td align="left"><b>시작 그룹</b></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="page1" id="new" value="new">
+                    <label for="new">새 탭 페이지 열기</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="page2" id="stop" value="stop">
+                    <label for="stop">중단한 위치에서 계속하기</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="page3" id="open" value="open">
+                    <label for="open">특정 페이지 또는 페이지 모음 열기</label>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <td align="left"><b>개인정보 및 보안</b></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="security1" id="service" value="service">
+                    <label for="service">동기화 및 서비스</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="security2" id="login" value="login">
+                    <label for="login">로그인 허용</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="security3" id="load" value="load">
+                    <label for="load">페이지 미리 로드</label>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
